@@ -35,8 +35,9 @@ let certificate = edunode.mint_certificate("Certificate ID", "Recipient Name", "
 
 # Verifying Certificates
 To verify an existing EduCert:
-
+<code>
 let verification_result = edunode.verify_certificate("Certificate ID");
+</code>
 
 # Documentation
 For more detailed information about the API, see the API Documentation.
