@@ -17,8 +17,9 @@ To add the rs-edunode-sdk to your package, add the following to your Cargo.toml:
 
 <code>[dependencies]
 rs-edunode-sdk = "0.1.0"
-Then run <code>cargo build</code> to download and compile the package.
 </code>
+Then run <code>cargo build</code> to download and compile the package.
+
 
 # Usage
 After adding the SDK as a dependency, import it using:
