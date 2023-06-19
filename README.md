@@ -23,8 +23,9 @@ Then run <code>cargo build</code> to download and compile the package.
 
 # Usage
 After adding the SDK as a dependency, import it using:
-
+<code>
 extern crate rs_edunode_sdk;
+</code>
 
 # Minting Certificates
 To mint a new EduCert:
