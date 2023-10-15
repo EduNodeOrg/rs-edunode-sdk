@@ -1,5 +1,5 @@
 # rs-edunode-sdk
-rs-edunode-sdk: Rust SDK for EduCerts by EduNode.org
+rs-edunode-sdk: Rust SDK for EduCerts on Soroban by EduNode.org
 This repository provides the Rust Software Development Kit (SDK) for the EduCerts, a decentralized digital certificate issuing and verification system. EduCerts is designed to be leveraged on the Soroban Smart Contract platform.
 
 # Features
