@@ -1,8 +1,0 @@
-/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/debug/deps/stellar_ownable-39199ad58b0eebd5.d: /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/lib.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/ownable.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/storage.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/test.rs
-
-/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/debug/deps/libstellar_ownable-39199ad58b0eebd5.rmeta: /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/lib.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/ownable.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/storage.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/test.rs
-
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/lib.rs:
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/ownable.rs:
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/storage.rs:
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/ownable/src/test.rs:
