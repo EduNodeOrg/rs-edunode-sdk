@@ -1,0 +1,1 @@
+/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/wasm32v1-none/release/rs_edunode_sdk.wasm: /Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/src/diploma_nft.rs /Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/src/lib.rs /Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/src/test.rs

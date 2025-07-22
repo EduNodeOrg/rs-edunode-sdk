@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/release/build/typenum-381220c907db9238/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/release/build/typenum-381220c907db9238/out/op.rs
