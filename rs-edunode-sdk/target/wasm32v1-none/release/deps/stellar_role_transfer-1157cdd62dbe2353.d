@@ -1,9 +1,0 @@
-/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/wasm32v1-none/release/deps/stellar_role_transfer-1157cdd62dbe2353.d: /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/lib.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/storage.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/test.rs
-
-/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/wasm32v1-none/release/deps/libstellar_role_transfer-1157cdd62dbe2353.rlib: /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/lib.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/storage.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/test.rs
-
-/Users/olvisgil/Documents/GitHub/rs-edunode-sdk/rs-edunode-sdk/target/wasm32v1-none/release/deps/stellar_role_transfer-1157cdd62dbe2353.wasm: /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/lib.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/storage.rs /Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/test.rs
-
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/lib.rs:
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/storage.rs:
-/Users/olvisgil/.cargo/git/checkouts/stellar-contracts-23b9f8e80f2c4738/659fcab/packages/access/role-transfer/src/test.rs:
