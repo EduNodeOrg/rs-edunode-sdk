@@ -1,4 +1,4 @@
-use soroban_sdk::{contract, contractimpl, Env, Address, String};
+use soroban_sdk::{contract, contractimpl, Env, Address, String, Bytes};
 use stellar_default_impl_macro::default_impl;
 use stellar_non_fungible::{
     Base,
@@ -12,6 +12,8 @@ use stellar_pausable_macros::when_not_paused;
 use stellar_upgradeable::{UpgradeableInternal};
 use stellar_upgradeable_macros::Upgradeable;
 
+const COURSE_ID_KEY: &str = "course_id";
+
 #[derive(Upgradeable)]
 #[contract]
 pub struct DiplomaNFT;
@@ -19,13 +21,25 @@ pub struct DiplomaNFT;
 #[contractimpl]
 impl DiplomaNFT {
     // Initialize contract with owner and metadata
-    pub fn __constructor(e: &Env, owner: Address) {
-        let uri = String::from_str(e, "https://edunode.org/diplomas");
-        let name = String::from_str(e, "EduNode Diploma NFT");
-        let symbol = String::from_str(e, "DIPLOMA");
-
+    pub fn __constructor(
+        e: &Env, 
+        owner: Address,
+        course_id: String,
+        uri: String,
+        name: String,
+        symbol: String
+    ) {
         Base::set_metadata(e, uri, name, symbol);
         ownable::set_owner(e, &owner);
+        
+        // Store the course ID
+        e.storage().persistent().set(&Bytes::from_slice(e, COURSE_ID_KEY.as_bytes()), &course_id);
+    }
+
+    // Get the course ID for this contract
+    pub fn get_course_id(e: &Env) -> String {
+        e.storage().persistent().get(&Bytes::from_slice(e, COURSE_ID_KEY.as_bytes()))
+            .unwrap_or_else(|| panic!("Course ID not set"))
     }
 
     // Only the owner (issuer) can mint a diploma
